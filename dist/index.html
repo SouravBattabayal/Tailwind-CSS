@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="nav bg-gradient-to-b from-slate-50 to-slate-600 text-[#242B2E] h-[8vh]">
+        <ul class="flex justify-between pt-5 pl-4 pr-4">
+            <a href="#home" class="hover:text-white">Home</a>
+            <button onclick="scrollToBottom()" class="hover:text-white">Contact</button>
+            <!-- <a href="#contact" class="hover:text-white">Contact</a> -->
+            <a href="#aboutus" class="hover:text-white">About Us</a>
+            <a href="#transactions" class="hover:text-white">Transactions</a>
+        </ul>
+    </nav>
+
+    <div class="flex w-[100%] h-[100vh]">
+        <div class="w-1/2 bg-[#237497] text-red-700 relative text-center hover:bg-yellow-600text-white cursor-pointer">
+            <!-- <img src="https://wallpaperaccess.com/full/31193.jpg" alt="" class="w-6/6 p-5"> -->
+            <img src="https://wallpapercave.com/wp/wp2874386.jpg" alt="" class="p-5 rounded-md">
+
+            <h1 class="text-center text-4xl font-serif text-[#045282] bg-[#18b9c5] absolute top-3 left-3 m-2">
+                Kashmir-The Paradise on Earth</h1>
+            <div class="flex justify-center ml-[135px] h-[180px] w-[465px]">
+                <p class="text-red-950 font-bold">Nature has endowed Kashmir with implausible beauty and is rightly
+                    called as “Paradise on Earth”. Kashmir is resplendent with stunning Chinar trees that turn the
+                    entire valley yellow and red when the autumn arrives, silver lakes that turn golden at the crack of
+                    dawn, and crystal blue rivers that are sourced from the icy mountains.
+                    Incredibly beautiful valleys like Kishtwar, Markha, Suru, Shyok, Nubra, Nageen, Betaab, Dha Hanu,
+                    Poonch and many others add a different definition to beauty. The valleys of Kashmir are untamed and
+                    unspoilt. Surrounded by the sublime mountains, these valleys echo nature, beauty and a certain level
+                    of mysticism.</p>
+            </div>
+        </div>
+
+        <div class="w-1/2 bg-[#242B2E] text-red-700 hover:bg-yellow-600text-white cursor-pointer">
+            <!-- <img src="https://wallpapercave.com/wp/wp2874386.jpg" alt="" class="p-5 rounded-md"> -->
+
+            <div class="h-[370px] w-[100%] text-8xl flex flex-col items-center justify-end">
+                <h1 class="font-serif text-[#458963] mr-[205px]">The</h1>
+                <h2 class="font-serif text-[#a60c1b]">Kashmir</h2>
+                <h3 class="font-sans text-[#E21717] mr-[205px]">Trip</h3>
+            </div>
+
+            <div class=" flex justify-center items-center">
+                <form action="" class="m-4 p-5 flex flex-col gap-2">
+                    <input type="email" name="mailid" placeholder="enter email"
+                        class="rounded-xl text-white bg-black ml-[120px] mr-[120px] hover:bg-gray-800 p-2">
+                    <input type="password" name="pwd" placeholder="password"
+                        class="rounded-xl text-white bg-black ml-[120px] mr-[120px] hover:bg-gray-800 p-2">
+                    <a href="/dist/pr01loginpg.html"><input type="button" value="Login"
+                            class="bg-sky-500 text-orange-200 hover:bg-sky-700 pl-2 pr-2 ml-[285px] mr-[285px] rounded-lg"></a>
+                </form>
+            </div>
+            <p class="text-center">New user <a href="/dist/pr01reg.html"
+                    class="hover:bg-blue-800 hover:text-white hover:text-xl">Sign up</a> here</p>
+        </div>
+    </div>
+
+    <div class="bg-slate-500 text-[#012c1a] grid grid-rows-3 grid-flow-col font-bold border-[1px] ">
+        <div class="bg-gradient-to-tr from-blue-500 to-red-700 row-span-3 text-center border-[2px] border-blue-700">
+            <h3><u>Verdant valleys</u></h3>: The valleys of Kashmir symbolize the serenity that can stimulate poetry in
+            you. Incredibly
+            beautiful valleys like Kishtwar, Markha, Suru, Shyok, Nubra, Nageen, Betaab, Dha Hanu, Poonch and many
+            others add a different definition to beauty. The valleys of Kashmir are untamed and unspoilt. Surrounded by
+            the sublime mountains, these valleys echo nature, beauty and a certain level of mysticism.
+        </div>
+        <div class="bg-gradient-to-tr from-slate-500 to-pink-700 col-span-2 text-center border-[2px] border-blue-700">
+            <h3><u>Picture perfect landscapes</u></h3>: From the majestic Pir Panjal ranges and thickly scented Kashmir
+            cypress branches
+            to the meandering rivers and verdant meadows, every corner of the valley is filled with great beauty. Each
+            place is like a postcard waiting to be shown to the world.
+        </div>
+        <div
+            class="bg-gradient-to-tr from-yellow-500 to-red-700 row-span-2 col-span-2 text-center border-[2px] border-blue-700">
+            <h3><u>Delightful autumns</u></h3>: If you are planning a trip to Kashmir and are not in the mood to face
+            the cold winter,
+            then autumn is the time to visit. Autumns in Kashmir are delightful and vibrant. The colors of autumn are
+            vivid and the winds are energetic and soft. The trees take on stunning scarlet, golden, and amber hues,
+            adding an amazing charm to the landscape. <br>
+            <h3><u>Charming lakes</u></h3>: The lakes in Kashmir are crystal clear, stunning and pristine. Srinagar
+            boasts of the Dal
+            and Nageen Lakes which are stunning. A boat ride on the lakes with the towering mountains in the backdrop
+            will give you an excellent idea why Kashmir is truly a paradise.
+        </div>
+        <!-- <div class="bg-gradient-to-tr from-blue-500 to-blue-700">frth</div> -->
+    </div>
+
+    <footer class="bg-gradient-to-t from-slate-50 to-slate-600 h-auto w-[100%]">
+        <div class="flex flex-col items-center pt-[9px]">
+            <p><b>Follow us on</b></p>
+
+            <div class="flex p-4">
+                <a href="#" class="fa fa-facebook m-4"></a>
+                <a href="#" class="fa fa-twitter m-4"></a>
+                <a href="#" class="fa fa-pinterest m-4"></a>
+                <a href="#" class="fa fa-linkedin m-4"></a>
+                <a href="#" class="fa fa-instagram m-4"></a>
+                <a href="#" class="fa fa-youtube m-4"></a>
+                <a href="#" class="fa fa-google m-4"></a>
+                <a href="#" class="fa fa-snapchat-ghost m-4"></a>
+                <a href="#" class="fa fa-skype m-4"></a>
+            </div>
+            Copyright &#169 tourist.com
+        </div>
+    </footer>
+</body>
+<script>
+    function scrollToBottom() {
+        var height = document.body.scrollHeight;
+        window.scroll(0, height);
+    }
+</script>
+
+</html>
